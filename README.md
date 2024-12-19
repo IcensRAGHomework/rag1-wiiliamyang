@@ -3,6 +3,16 @@
 ## 作業內容
 
 請使用 **LangChain** 套件完成以下作業，並實作提供的方法 `generate_hw01-04(question)`。實作於 **`student_assignment.py`** 中。
+#### 創建 `.env` 文件（供學生使用）
+
+請在項目根目錄下創建一個名為 `.env` 的文件，並在其中定義環境變數，該文件將提供`model_configurations.py`所需的下列參數內容。參加該作業時，會提供具體的內容給學生。以下是一個示例：
+
+```makefile
+AZURE_OPENAI_GPT4O_ENDPOINT=your_endpoint_here
+AZURE_OPENAI_GPT4O_KEY=your_api_key_here
+AZURE_OPENAI_GPT4O_DEPLOYMENT_CHAT=your_deployment_name_here
+AZURE_OPENAI_GPT4O_VERSION=your_api_version_here
+```
 
 ---
 
